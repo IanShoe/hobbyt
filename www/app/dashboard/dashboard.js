@@ -10,6 +10,6 @@ config(function($stateProvider) {
     }
   });
 }).
-controller('DashboardCtrl', ['$scope', function($scope) {
-
+controller('DashboardCtrl', ['$scope', 'Categories', function($scope, Categories) {
+  $scope.categories = Categories.all();
 }]);

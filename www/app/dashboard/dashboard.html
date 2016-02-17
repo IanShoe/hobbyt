@@ -1,5 +1,8 @@
-<ion-view title="Dashboard">
+<ion-view title="Categories">
   <ion-content class="padding">
-    <h1>Dashboard</h1>
+    <ion-list>
+      <ion-item ng-repeat="category in categories" type="item-text-wrap" href="#/tab/category/{{category.id}}">
+        {{category.name}}
+      </ion-item>
   </ion-content>
 </ion-view>

@@ -1,0 +1,68 @@
+categories:[{
+  name: 'Athletic Sports',
+  items: ['s1', 's2'],
+  id: 'c1'
+},
+{
+  name: 'Video Games',
+  items: ['h7', 'h8', 'h9'],
+  id: 'c2'
+}]
+
+subCategories: [{
+  name: 'Ball Sports',
+  items: ['h1', 'h2', 'h3', 'h4'],
+  id: 's1'
+},
+{
+  name: 'Combat Sports',
+  items: ['h5', 'h6'],
+  id: 's2'
+}]
+
+
+hobbies: [{
+  name: 'Football',
+  tags :['indoor', 'outdoor', 'ball', 'competitive', 'sport']
+  id: 'h1'
+},
+{
+  name: 'Basketball',
+  tags :['indoor', 'outdoor', 'ball', 'competitive', 'sport']
+  id: 'h2'
+},
+{
+  name: 'Basketball',
+  tags :['indoor', 'outdoor', 'ball', 'competitive', 'sport']
+  id: 'h2'
+},
+{
+  name: 'Ping Pong',
+  tags :['indoor', 'ball', 'competitive', 'sport']
+  id: 'h4'
+},
+{
+  name: 'Wrestling',
+  tags :['fighting', 'competitive', 'sport']
+  id: 'h5'
+},
+{
+  name: 'Karate',
+  tags :['fighting', 'competitive', 'sport']
+  id: 'h6'
+},
+{
+  name: 'League of Legends',
+  tags :['indoor', 'competitive', 'sport', 'video-game', 'MOBA']
+  id: 'h7'
+},
+{
+  name: 'World of Warcraft',
+  tags :['indoor', 'competitive', 'video-game', 'MMORPG']
+  id: 'h8'
+},
+{
+  name: 'Diablo 3',
+  tags :['indoor', 'video game', 'RPG']
+  id: 'h9'
+}]
